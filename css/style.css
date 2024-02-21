@@ -20,7 +20,6 @@ nav {
   display: flex;
   flex-wrap: wrap;
   max-height: 148px;
-
   list-style: none;
   align-items: center;
   justify-content: space-between;
@@ -127,7 +126,6 @@ nav {
   background-color: #494949;
   min-width: 250px;
   z-index: 1;
- 
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 .dropdown-content a {
@@ -136,11 +134,9 @@ nav {
   text-transform: uppercase;
   text-decoration: none;
   display: block;
-
 }
 .dropdown-content a:hover {
   background-color: #434343;
-
 }
 /* .dropdown_menu-6{
     animation: growDown 100ms ease-in-out forwards;
@@ -283,15 +279,11 @@ nav {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-
-  /* padding: 20px; */
 }
 strong a {
   text-decoration: none;
   color: #a4a4a4;
-
   margin: 2px;
-  /* padding: 10px 0 0 0; */
   font-size: 16px;
   font-family: "Robonto", sans-serif;
   text-align: center;
