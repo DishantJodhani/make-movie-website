@@ -279,6 +279,9 @@ nav {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  
+    line-height: 27px;
+
 }
 strong a {
   text-decoration: none;
