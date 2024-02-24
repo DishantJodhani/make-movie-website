@@ -66,6 +66,7 @@ nav {
   display: flex;
   flex-wrap: wrap;
   gap: 3px;
+  margin-left: 10px;
 }
 .side-btn-1 {
   background-color: #d35151;
@@ -81,6 +82,7 @@ nav {
   line-height: 18px;
   padding: 8px 20px;
   border-radius: 15%;
+ 
 }
 .nev-flax {
   display: flex;
@@ -106,6 +108,7 @@ nav {
   font-size: 0.9rem;
   border-radius: 0px 0px 12px 12px;
   font-family: "Robonto", sans-serif;
+  text-decoration: none !important;
 }
 .ul-2 .aa {
   background-color: #494949;
@@ -221,6 +224,58 @@ nav {
 .option a button:hover {
   cursor: pointer;
 }
+.re-menu{
+  text-decoration: none;
+  color: white;
+  display: none;
+}
+.hamburger {
+  padding-left: 1.5rem;
+  display: none;
+}
+.hamburger a {
+  padding: 0;
+  width: 28px;
+  height: 37px;
+  display: flex;
+  border-radius: 50%;
+     
+  backdrop-filter: blur(10px);
+  --webkit-backdrop-filter: blur(10px);
+  justify-content: center;
+  align-items: center;
+}
+.hamburger .bar {
+  position: relative;
+  width: 52%;
+  height: 1.3px;
+  font-size: 31px;
+  background-color: #fff;
+  border-radius: 2px;
+}
+.hamburger .bar::after,
+.hamburger .bar::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  transform: translateX(-50%);
+  background-color: inherit;
+  border-radius: 2px;
+  font-weight: 900;
+
+}
+.hamburger .bar::before {
+  top: -4.5px;
+}
+.hamburger .bar::after {
+  top: 4.5px;
+}
+.re-menu-1{
+  display: none;
+  
+}
 
 /* ************************************************************************************ */
 
@@ -233,7 +288,8 @@ nav {
 }
 .img-iteam {
   background-color: #27272a;
-  width: 200px;
+  /* width: 200px; */
+  width: 18.25%;
   border-radius: 10px;
 }
 .img-iteam a {
@@ -326,8 +382,71 @@ strong a:hover {
   transition: 0.3s;
 }
 
+/* *******************************************card****************************************** */
+
+
+
+
+@media screen and  (max-width: 1167.99px) {
+  .row-1{
+    max-width: 1085px;
+    width: 100% !important;
+    display: flex;
+    justify-content: flex-start !important;
+    padding-left: 0px  !important;
+    padding-right: 30px  !important;
+  }
+  .img-iteam{
+    width: 22%;
+  }
+}
+@media screen and  (max-width: 804.99px) {
+  .row-1{
+    max-width: 773px;
+    width: 100% !important;
+    display: flex;
+    justify-content: flex-start !important;
+    padding-left: 0px  !important;
+    padding-right: 30px  !important;
+  }
+  .img-iteam{
+    width: 30%;
+  }
+}
+@media screen and  (max-width: 553.99px) {
+  .row-1{
+    max-width: 522px;
+    width: 100% !important;
+    display: flex;
+    justify-content: flex-start !important;
+    padding-left: 0px  !important;
+    padding-right: 30px  !important;
+  }
+  .img-iteam{
+    width: 44%;
+  }
+}
+
+
+
+/* ************************************nav*********************************** */
 @media (max-width: 1039px) {
   .search-icon {
+    max-width: 352.8px;
+    width: 100%;
+  }
+  .ul-1 {
+    flex-wrap: nowrap;
+    
+  }
+  .side-btn {
+    flex-wrap: nowrap;
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 857px) {
+  /* .search-icon {
     max-width: 352.8px;
     width: 100%;
   }
@@ -337,8 +456,49 @@ strong a:hover {
   .side-btn {
     flex-wrap: nowrap;
     margin-left: 10px;
+  } */
+  .hamburger{
+    display: block;
+    border-right: none;
+    background-color: none;
+    font-family: FontAwesome;
+    content: "\f0c9";
+    cursor: pointer;
+    float: right;
   }
-}
+  .re-menu{
+    display: block;
+    font-size: 16px;
+    font-family: "Robonto", sans-serif;
+  }
+  .drop-down,.aa{
+    display: none;
+  }
+  /* .drop-down{
+
+  } */
+  .re-menu-1 {
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+    width: 100% !important;
+    max-height: 27px;
+  }
+  /* .re-menu-1 a{
+    border: none;
+  } */
+  .ul-2 li {
+    border-right: none !important;
+    border-radius: none !important;
+  }
+  .ul-2{
+    width: 100%;
+    padding: 10px;
+    /* max-height: 47px; */
+    text-decoration: none;
+  }
+  }
+
 @media (max-width: 850px) {
   .search-icon {
     max-width: 250px;
@@ -459,4 +619,8 @@ strong a:hover {
     align-items: center;
     align-self: center;
   }
+}
+@media (max-width: 276.99px) {
+  
+  
 }
