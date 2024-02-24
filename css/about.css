@@ -489,6 +489,11 @@ main{
   padding: 8px;
   margin-bottom: 10px;
 }
+
+/* ****************************************************************************** */
+
+
+
 .row-3 {
   padding: 25px;
   background-color: #27272a;
@@ -512,7 +517,7 @@ strong a {
   text-align: center;
 
 }
-strong {
+.detail-6,.detail-7,.detail-8 strong {
   color: #a4a4a4;
   font-size: 16px;
   text-align: start;
@@ -521,11 +526,16 @@ strong a:hover {
   color: #319e67;
   transition: 0.3s;
 }
+
+/* ***************************************************************************************8 */
+
+
+
 .side-info{
-  max-width: 395px;
+  max-width: 375px;
   width: 100%;
   height: auto;
-  background-color: #09090b;
+  background-color: #09090b ;
   padding: 22px;
   margin: 25px 25px auto 0;
 }
@@ -560,4 +570,79 @@ strong a:hover {
 ::placeholder {
   padding-left: 10px;
   color: rgb(155, 149, 149);
+}
+.tele-info{
+  background-color: #18181B;
+    margin-bottom: 30px;
+}
+.join-tele{
+  margin-bottom: 15px;
+}
+.join-tele h2{
+  color: #555555;
+  font-family: "Robonto", sans-serif;
+  font-size: 18px;
+  padding: 15px;
+  border-bottom: 0.4px solid #555555;
+ 
+ font-weight: 600;
+ letter-spacing: normal;
+}
+/* .join-tele-pic{
+ 
+  padding: 15px;
+  
+} */
+.join-tele-pic  img{
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+.advt-3{
+  background-color: #18181B;
+  /* padding: 15px; */
+  padding: 15px 15px 30px 15px;
+  margin-bottom: 30px;
+  text-align: center;
+  /* width: 100%; */
+}
+.advt-3 img{
+  max-width: 99.99%;
+}
+.caragary-movie-type{
+  background-color: #18181B;
+  margin-bottom: 30px;
+}
+/* .category-hedding{
+  margin-bottom: 15px;
+} */
+.category-hedding h2{
+  color: #555555;
+  font-family: "Robonto", sans-serif;
+  font-size: 16px;
+  padding: 15px;
+  border-bottom: 0.4px solid #555555;
+ 
+ font-weight: 600;
+ letter-spacing: normal;
+}
+.category-links-name{
+ padding: 15px;
+ display: flex;
+ flex-wrap: wrap;
+}
+.cat-link-bg{
+  background: url('../img/assets 2/asset 13.png');
+  text-decoration: none;
+  font-family: "Robonto", sans-serif;
+  font-size: 11px;
+  padding: 5px 10px 5px 21px;
+  margin: 5px 1px 2px;
+  color: #ffffff;
+  background-size: cover;
+  text-shadow: 1px 1px #000;
+  text-transform:  uppercase;
+}
+.cat-link-bg:hover {
+  background: url("../img/assets 2/asset 14.png"); 
 }
